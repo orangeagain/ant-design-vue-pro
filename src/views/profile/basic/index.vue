@@ -22,7 +22,7 @@ export default {
     window.ReactDOM.render(
       window.React.createElement(window.GraphiQL, {
         fetcher: window.GraphiQL.createFetcher({
-          url: 'https://swapi-graphql.netlify.app/.netlify/functions/index'
+          url: 'http://localhost:8545/graphql'
         }),
         defaultEditorToolsVisibility: true
       }),
