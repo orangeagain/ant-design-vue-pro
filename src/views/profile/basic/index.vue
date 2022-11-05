@@ -43,16 +43,16 @@ export default {
   height: 50vh;
 } */
 
-.fkmain{
-  position:absolute;
-  top:64px;
+.fkmain {
+  position: absolute;
+  top: 64px;
   bottom: 0px;
-  /* height: inherit; */
-  /* bottom:0px; */
+  /* top: 64px;
+  height: calc(100vh - 64px); */
   width: 100%;
   background-color: #abbaea;
 }
-.fullh{
+.fullh {
   height: 100%;
   background-color: #003afa;
 }
