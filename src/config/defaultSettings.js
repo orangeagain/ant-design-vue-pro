@@ -18,6 +18,7 @@
   layout: 'topmenu', // nav menu position: `sidemenu` or `topmenu`
   contentWidth: 'Fluid', // layout of content: `Fluid` or `Fixed`, only works when layout is topmenu
   fixedHeader: false, // sticky header
+  // headerHeight: 808, // 修改了这里
   fixSiderbar: false, // sticky siderbar
   colorWeak: false,
   menu: {
